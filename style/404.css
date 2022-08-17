@@ -1,0 +1,19 @@
+.erreur {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.error {
+    background-color: var(--bleu);
+    width: 100%;
+    height: 30%;
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

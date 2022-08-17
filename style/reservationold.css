@@ -1,0 +1,551 @@
+/*-----------------------------------------
+            CONTAINER 6 RESERVATION
+-------------------------------------------*/
+
+.container6 {
+    width: 100%;
+    height: 100vh;
+}
+
+.container6-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.container6-1-H {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reservationTitre {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--bleu);
+    padding-top: 7%;
+    font-weight: bold;
+}
+
+.container6-1-M {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bleu);
+}
+
+.C6-Background {
+    width: 80%;
+    height: 80%;
+    background-color: aliceblue;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.C6-Bloc-Titre {
+    width: 100%;
+    height: 10%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C6-Titre {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.C6-Bloc-Date {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.dateVisite {
+    font-size: 1.5rem;
+    color: var(--bleu);
+
+}
+
+.historiqueDate {
+    font-size: 0.9rem;
+    color: var(--rose);
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+
+.historiqueDate:hover {
+    color: var(--bleu);
+}
+
+.C6-Bloc-3 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.C6-Bloc-4 {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.container6-1-B {
+    width: 100%;
+    height: 5%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container6-1Img {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.page6-4 {
+    text-decoration: none;
+    list-style: none;
+    color: var(--bleu);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
+
+/**----------------------------
+ CONTAINER 7
+ --------------------------------*/
+
+
+
+.container7 {
+    width: 100%;
+    height: 100vh;
+}
+
+.container7-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bleu);
+}
+
+
+.container7-1-1 {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.container7-1-Gauche {
+
+    width: 40%;
+    height: 55%;
+    background-color: aliceblue;
+    margin: 1%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+
+.C7-Bloc-Titre {
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.C7-Titre {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
+
+.C7-Bloc-Infos {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+p.groupePrive {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+p.tel {
+    font-size: 2rem;
+    color: var(--bleu);
+    text-align: center;
+}
+
+p.mail {
+    font-size: 2rem;
+    color: var(--bleu);
+    text-align: center;
+}
+
+.container7-1-Droite {
+
+    width: 40%;
+    height: 55%;
+    background-color: aliceblue;
+    margin: 1%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.container7-1-B {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.container7-1-CG {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--rose);
+}
+
+
+a.lienpage {
+    text-decoration: none;
+    list-style: none;
+    color: var(--rose);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+a.lienpage:hover {
+    color: var(--bleu);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media all and (max-width:1550px) {
+
+
+    p.tel {
+        font-size: 1.6rem;
+    }
+
+    p.mail {
+        font-size: 1.6rem;
+    }
+
+    p.dateVisite {
+        font-size: 1rem;
+
+    }
+
+
+}
+
+
+@media all and (max-width:1000px) {
+
+
+    .C6-Bloc-Date {
+        width: 100%;
+        height: 40%;
+    }
+
+}
+
+@media all and (max-width:900px) {
+
+    p.dateVisite {
+        font-size: 1.2rem;
+    }
+
+
+    p.tel {
+        font-size: 1.2rem;
+    }
+
+    p.mail {
+        font-size: 1.2rem;
+    }
+
+    .C7-Titre,
+    .C6-Titre {
+        font-size: 1.5rem;
+    }
+
+    .groupePrive {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media all and (max-width:700px) {
+
+    p.dateVisite {
+        font-size: 1rem;
+    }
+
+
+    p.tel {
+        font-size: 1rem;
+    }
+
+    p.mail {
+        font-size: 1rem;
+    }
+
+    .C7-Titre,
+    .C6-Titre {
+        font-size: 1.2rem;
+    }
+
+    p.groupePrive {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media all and (max-width:500px) {
+
+    p.dateVisite {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+
+    p.tel {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    p.mail {
+        font-size: 0.65rem;
+        text-align: center;
+    }
+
+    .C7-Titre,
+    .C6-Titre {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+
+    p.groupePrive {
+        font-size: 0.8rem;
+        font-weight: 0;
+
+    }
+
+}
+
+@media all and (max-width:400px) {
+
+    p.dateVisite {
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+
+    p.tel {
+        font-size: 0.6rem;
+    }
+
+    p.mail {
+        font-size: 0.6rem;
+    }
+
+    .C7-Titre,
+    .C6-Titre {
+        font-size: 0.8rem;
+    }
+
+    p.groupePrive {
+        font-size: 0.7rem;
+
+    }
+
+}
+
+
+
+
+@media all and (max-width:350px) {
+
+
+    .container7-1-1 {
+        flex-direction: column;
+    }
+
+    .reservationTitre {
+        font-size: 2rem;
+
+    }
+
+    p.dateVisite {
+        font-size: 0.6rem;
+        text-align: center;
+    }
+
+
+    p.tel {
+        font-size: 1rem;
+    }
+
+    p.mail {
+        font-size: 1rem;
+    }
+
+    .container7-1-Gauche,
+    .container7-1-Droite {
+
+        width: 90%;
+        height: 40%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+
+    .C7-Bloc-Titre {
+        width: 100%;
+        height: 30%;
+
+    }
+
+    .C7-Bloc-Infos {
+        height: 60%;
+    }
+
+    .C7-Titre,
+    .C6-Titre {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    p.groupePrive {
+        font-size: 0.8rem;
+
+    }
+
+    a.page6-4 {
+        font-size: 1rem;
+    }
+
+    a.lienpage {
+        font-size: 1rem;
+    }
+
+
+}
+
+
+@media (orientation:landscape) and (max-width:1000px) {
+
+    .reservationTitre {
+        font-size: 2rem;
+
+    }
+
+    p.dateVisite {
+        font-size: 0.6rem;
+    }
+
+
+    p.tel,
+    p.mail {
+        font-size: 0.8rem;
+    }
+
+    .container7-1-Gauche,
+    .container7-1-Droite {
+
+        width: 40%;
+        height: 75%;
+    }
+
+
+    .C7-Bloc-Titre {
+        width: 100%;
+        height: 30%;
+
+    }
+
+    .C7-Bloc-Infos {
+        height: 60%;
+    }
+
+    .C7-Titre,
+    .C6-Titre {
+        font-size: 0.8rem;
+    }
+
+    p.groupePrive {
+        font-size: 0.8rem;
+
+    }
+
+    a.page6-4 {
+        font-size: 1rem;
+    }
+
+    a.lienpage {
+        font-size: 1.2rem;
+    }
+
+
+}

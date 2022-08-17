@@ -1,0 +1,322 @@
+/***--------------------------
+------------BLOG*-------------
+-----------------------------*/
+
+
+.blog {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.containerBlog {
+    width: 100%;
+    height: 100%;
+}
+
+.vide {
+    width: 100%;
+    height: 13vh;
+
+}
+
+.footer {
+    width: 100%;
+    height: 10vh;
+
+}
+
+.containerBlogTitre {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blogTitre {
+    font-size: 3rem;
+    color: var(--bleu);
+    text-transform: uppercase;
+}
+
+.containerGabarit {
+    max-width: 100%;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.article {
+    border: 1px solid var(--bleu);
+    background-color: aliceblue;
+    width: 35vh;
+    height: 50vh;
+    margin: 2%;
+    overflow: hidden;
+    /* Overflox : Cache l'iamge si elle dépasse */
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.containerTitreArticle {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerArticle {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBoutonArticle {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TitreArticle {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+	text-align:center;
+
+}
+
+.contenuArticle {
+    width: 95%;
+    max-width: 95%;
+    height: 90%;
+    max-height: 90%;
+    overflow-x: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+p.articleDescription {
+    font-size: 1rem;
+
+}
+
+
+.contenuArticleImage {
+    width: 95%;
+    max-width: 95%;
+    height: 90%;
+    max-height: 90%;
+    overflow-x: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.articleImage {
+    width: 90%;
+    height: auto;
+
+}
+
+.boutonArticle {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+
+}
+
+a.buttonArt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: var(--bleu);
+    color: aliceblue;
+    text-align: center;
+}
+
+.buttonArt:hover {
+    background-color: aliceblue;
+    color: var(--bleu);
+    border: 1px solid var(--bleu);
+}
+
+
+/*---------------PARTIE GET --------------*/
+
+
+.getBlog {
+    width: 100%;
+    height: 100vh;
+}
+
+.containerGetBlog {
+    width: 100%;
+    height: 100%;
+}
+
+
+.blocTitreGet {
+    width: 100%;
+    height: 10%;
+    background-color: var(--bleu);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titreGet {
+
+    font-size: 2.5rem;
+    color: aliceblue;
+    text-transform: uppercase;
+
+}
+
+
+
+.blocContenueGet {
+    max-width: 100%;
+    height: auto;
+    min-height: 80vh;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.blocImageGet {
+
+    width: 800px;
+    height: 100%;
+    min-height: 200px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocImageGetPosition {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.imageGet {
+
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+}
+
+
+.blocInfoGet {
+
+    width: 1000px;
+    height: 95%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cadreInfoGet {
+
+    width: 95%;
+    height: auto;
+    min-height: 200px;
+    display: block;
+    background-color: aliceblue;
+    border-radius: 10px;
+    border: 1px solid var(--bleu);
+    padding: 2%;
+}
+
+p.InfoGet {
+    font-size: 1.5rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+.blocRetour {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bleu);
+}
+
+a.buttonRetour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 50%;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: aliceblue;
+    color: var(--bleu);
+    text-align: center;
+}
+
+.buttonRetour:hover {
+    background-color: var(--bleu);
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+
+
+@media all and (max-width: 350px) {
+	
+	
+	.TitreArticle {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+	text-align:center;
+
+}
+
+	
+}

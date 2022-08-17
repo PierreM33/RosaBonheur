@@ -1,0 +1,43 @@
+/*---- AFFICHAGE BLOC ERREUR ET EURREURS -----*/
+
+
+.blocErreur {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.erreur {
+
+    width: 40%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: brown;
+    margin: 2%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.valide {
+
+    width: 40%;
+    height: 100%;
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 2%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,562 @@
+/*----------------------------------------------
+            CONTAINER 4 DUO
+---------------------------------------------------*/
+
+
+
+.container4 {
+    width: 100%;
+    height: 100vh;
+}
+
+.container4-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container4-1-H {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.duoTitre {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--bleu);
+    padding-top: 7%;
+}
+
+.container4-1-M {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container4-1G {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocPh {
+    width: 20%;
+    height: 100%;
+    margin: 1%;
+
+}
+
+.blocImgP {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blocBleu {
+    width: 55%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.prenom {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: var(--bleu);
+    font-weight: bold;
+}
+
+.imgPortrait {
+    width: 55%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.blocDescG4-1 {
+    width: 70%;
+    height: 95%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid var(--bleu);
+}
+
+.blocT4-1 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SST4-1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.blocT4-1-1 {
+    width: 90%;
+    height: 65%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Desc4-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    overflow: auto;
+}
+
+P.scroll {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.blocT4-1-Bas {
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.role {
+    font-size: 1rem;
+    color: var(--bleu);
+    font-weight: bold;
+    text-align: center;
+}
+
+.container4-1D {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container4-1-B {
+    width: 100%;
+    height: 5%;
+    background-color: #227dad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container4-1Img {
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.page2-4 {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+
+    font-size: 2rem;
+
+    cursor: pointer;
+}
+
+
+
+/*-----------------------------------------
+CONTAINER 5
+-------------------------------------------*/
+
+
+.container5 {
+    width: 100%;
+    height: 100vh;
+}
+
+.container5-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.C5-Gauche {
+    width: 40%;
+    height: 100%;
+    background-color: #227dad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocPhoto {
+    width: 70%;
+    height: 60%;
+}
+
+.PhotoG {
+    width: 100%;
+    height: 100%;
+    background: url('../img/P1120636.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    background-position: center;
+    border: 1px solid aliceblue;
+}
+
+.C5-Droite {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocCentral {
+    width: 80%;
+    height: 80%;
+    border-bottom: 2px solid var(--bleu);
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.C5-BT {
+
+    width: 100%;
+    height: 25%;
+    background-color: #227dad;
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.TiC5 {
+    color: aliceblue;
+    width: 90%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+.C5-BB {
+    width: 100%;
+    height: 75%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TiC5-2 {
+    color: var(--bleu);
+    width: 90%;
+    font-size: 1.5rem;
+    text-align: center;
+    text-align: justify;
+}
+
+
+@media all and (max-width: 1600px) {
+
+
+    p.scroll {
+        font-size: 1.1rem;
+    }
+}
+
+@media all and (max-width: 1500px) {
+
+    .SST4-1 {
+        font-size: 1rem;
+    }
+
+    p.scroll,
+    .role {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 1400px) {
+
+
+
+    .role {
+        font-size: 0.7rem;
+    }
+
+    .TiC5 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .TiC5-2,
+    .TiC5-3,
+    .TiC5-4 {
+        font-size: 1rem;
+    }
+
+}
+
+@media all and (max-width: 1400px) {
+
+    .TiC5 {
+        font-size: 1.7rem;
+    }
+
+    .TiC5-2,
+    .TiC5-3,
+    .TiC5-4 {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media all and (max-width: 1100px) {
+
+    .SST4-1 {
+        font-size: 0.9rem;
+    }
+
+    .role {
+        font-size: 0.6rem;
+    }
+
+    .TiC5 {
+        font-size: 1.4rem;
+    }
+
+    .TiC5-2,
+    .TiC5-3,
+    .TiC5-4 {
+        font-size: 0.9rem;
+    }
+
+    a.page2-4 {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media all and (max-width: 900px) {
+
+    .container4-1-H {
+        width: 100%;
+        height: 15%;
+    }
+
+    .duoTitre {
+        font-size: 3rem;
+        padding-top: 0%;
+    }
+
+    .container4-1-M {
+        width: 100%;
+        height: 80%;
+    }
+
+
+    .role {
+        font-size: 0.7rem;
+    }
+
+    .TiC5 {
+        font-size: 1.2rem;
+    }
+
+    .TiC5-2,
+    .TiC5-3,
+    .TiC5-4 {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media all and (max-width: 700px) {
+
+
+    .container4-1-H {
+        width: 100%;
+        height: 15%;
+    }
+
+    .duoTitre {
+        font-size: 3rem;
+        padding-top: 0%;
+    }
+
+    .container4-1-M {
+        width: 100%;
+        height: 80%;
+    }
+
+    .blocPh {
+        display: none;
+    }
+
+    .blocDescG4-1 {
+        width: 95%;
+    }
+
+
+    .SST4-1 {
+        font-size: 0.8rem;
+    }
+
+    .role {
+        font-size: 0.7rem;
+    }
+
+    .TiC5 {
+        font-size: 1rem;
+    }
+
+    .TiC5-2,
+    .TiC5-3,
+    .TiC5-4 {
+        font-size: 0.6rem;
+    }
+
+    .container5-1 {
+        flex-direction: column;
+    }
+
+    .C5-Gauche {
+        width: 100%;
+        height: 40%;
+    }
+
+    .C5-Droite {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media all and (max-width:600px) {
+    .role {
+        display: none;
+    }
+}
+
+
+@media (orientation:landscape) and (max-width: 1000px) {
+
+
+    .Desc4-1 {
+        font-size: 0.6rem;
+    }
+}
+
+@media (orientation:landscape) and (max-width: 700px) {
+
+
+    .role {
+        font-size: 0.6rem;
+    }
+
+    .TiC5 {
+        font-size: 0.7rem;
+    }
+}
+
+
+@media all and (max-width:350px) {
+
+
+
+    .container4-1-H {
+        width: 100%;
+        height: 15%;
+    }
+
+
+    .duoTitre {
+        font-size: 3rem;
+        padding-top: 0%;
+    }
+
+    .container4-1-M {
+        width: 100%;
+        height: 80%;
+    }
+
+
+    .blocPh {
+        display: none;
+    }
+
+    .blocDescG4-1 {
+        width: 95%;
+    }
+
+    .role {
+        display: none;
+    }
+
+    .blocT4-1-1 {
+        height: 70%;
+
+    }
+
+    .blocT4-1 {
+        width: 100%;
+        height: 30%;
+    }
+
+    .SST4-1 {
+        font-size: 0.7rem;
+    }
+
+    .TiC5 {
+        font-size: 0.7rem;
+    }
+}

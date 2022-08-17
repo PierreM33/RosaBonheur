@@ -1,0 +1,649 @@
+/*-----------------------------------------
+            CONTAINER 6 RESERVATION
+-------------------------------------------*/
+
+.containerReservation {
+    width: 100%;
+    height: 100vh;
+}
+
+.containerReservation-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blocVideReservation {
+    height: 15%;
+    width: 100%;
+}
+
+.containerReservation-1-H {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservationTitreReservation {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--bleu);
+    font-weight: bold;
+}
+
+.blocReservationCentrale {
+    width: 100%;
+    min-height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bleu);
+}
+
+.backgroundReservation-1 {
+    width: 95%;
+    height: 95%;
+    background-color: aliceblue;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blocHaut-2 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+
+.blocBas-2 {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.groupementBlocGauche {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.groupementBlocMilieu {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.groupementBlocDroite {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.blocDate {
+    width: 95%;
+    min-height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    color: var(--bleu);
+}
+
+.blocInformation {
+    width: 95%;
+    height: 10%;
+    font-size: 1.3rem;
+    color: var(--bleu);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blocInformation-2 {
+    width: 95%;
+    height: 35%;
+    font-size: 1.3rem;
+    color: var(--bleu);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imageAfficheReservation {
+    width: 95%;
+    height: 95%;
+}
+
+.imageLogoReservation {
+    width: 95%;
+    height: auto;
+}
+
+.historiqueDate {
+    font-size: 0.9rem;
+    color: var(--rose);
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+}
+
+.historiqueDate:hover {
+    color: var(--bleu);
+}
+
+
+p.dateVisite {
+    font-size: 1.5rem;
+    color: var(--bleu);
+}
+
+a.page6-4 {
+    text-decoration: none;
+    list-style: none;
+    color: var(--bleu);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.full {
+    color: rgb(255, 77, 77);
+}
+
+/**----------------------------
+ CONTAINER 7
+ --------------------------------*/
+
+
+
+.container7 {
+    width: 100%;
+    height: 100vh;
+}
+
+.container7-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--bleu);
+}
+
+
+.container7-1-1 {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.container7-1-Gauche {
+
+    width: 40%;
+    height: 55%;
+    background-color: aliceblue;
+    margin: 1%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+
+.C7-Bloc-Titre {
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.C7-Titre {
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5%;
+}
+
+.C7-Bloc-Infos {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+p.groupePrive {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    padding-top: 2%;
+}
+
+p.tel {
+    font-size: 2rem;
+    color: var(--bleu);
+    text-align: center;
+}
+
+p.mail {
+    font-size: 2rem;
+    color: var(--bleu);
+    text-align: center;
+}
+
+.container7-1-Droite {
+
+    width: 40%;
+    height: 55%;
+    background-color: aliceblue;
+    margin: 1%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.container7-1-B {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.container7-1-CG {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--rose);
+}
+
+
+a.lienpage {
+    text-decoration: none;
+    list-style: none;
+    color: var(--rose);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+a.lienpage:hover {
+    color: var(--bleu);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media all and (max-width:1550px) {
+
+
+    p.tel {
+        font-size: 1.6rem;
+    }
+
+    p.mail {
+        font-size: 1.6rem;
+    }
+
+    p.dateVisite {
+        font-size: 1rem;
+
+    }
+
+
+}
+
+
+@media all and (max-width:1100px) {
+
+
+    .blocInformation,
+    .blocInformation-2 {
+
+        font-size: 1rem;
+    }
+
+}
+
+@media all and (max-width:900px) {
+
+
+    .blocInformation {
+
+        font-size: 0.9rem;
+    }
+
+    .blocInformation-2 {
+        font-size: 0.8rem;
+    }
+
+    p.dateVisite {
+        font-size: 1.2rem;
+    }
+
+
+    p.tel {
+        font-size: 1.2rem;
+    }
+
+    p.mail {
+        font-size: 1.2rem;
+    }
+
+    .C7-Titre {
+        font-size: 1.5rem;
+    }
+
+    .groupePrive {
+        font-size: 1.2rem;
+    }
+
+}
+
+@media all and (max-width:700px) {
+
+    p.dateVisite {
+        font-size: 1rem;
+    }
+
+
+    p.tel {
+        font-size: 1rem;
+    }
+
+    p.mail {
+        font-size: 1rem;
+    }
+
+    .C7-Titre {
+        font-size: 1.2rem;
+    }
+
+    p.groupePrive {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media all and (max-width:500px) {
+
+
+    .groupementBlocGauche,
+    .groupementBlocDroite {
+        display: none;
+    }
+
+    .groupementBlocMilieu {
+        width: 90%;
+    }
+
+    .blocInformation {
+
+        font-size: 1rem;
+    }
+
+    .blocInformation-2 {
+        font-size: 1rem;
+    }
+
+
+    .container7-1-1 {
+        flex-direction: column
+    }
+
+    .container7-1-Gauche {
+
+        width: 90%;
+        height: 50%;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .container7-1-Droite {
+        width: 90%;
+        height: 30%;
+
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+
+
+}
+
+@media all and (max-width:450px) {
+
+    .blocHaut-2 {
+        font-size: 1.2rem;
+    }
+
+    .blocDate {
+        font-size: 1rem;
+    }
+
+}
+
+
+
+@media all and (max-width:375px) {
+
+    .reservationTitreReservation {
+        font-size: 1.3rem;
+    }
+
+    .blocHaut-2 {
+        font-size: 1rem;
+    }
+
+    .blocDate {
+        font-size: 0.9rem;
+    }
+
+
+    .blocInformation,
+    .blocInformation-2 {
+        display: none;
+    }
+
+    .C7-Bloc-Infos {
+        margin-top: 5%;
+    }
+
+    p.dateVisite {
+        font-size: 0.7rem;
+    }
+
+    .container7-1-Gauche {
+
+        height: 65%;
+        margin: 0%;
+        ;
+    }
+
+
+    p.tel,
+    p.mail {
+        font-size: 0.6rem;
+    }
+
+    .C7-Titre {
+        font-size: 0.9rem;
+    }
+
+    p.groupePrive {
+        font-size: 0.8rem;
+    }
+
+
+
+
+}
+
+
+
+
+@media (orientation:landscape) and (max-width:1000px) {
+
+
+    .blocVideReservation {
+        height: 5%;
+    }
+
+    .reservationTitreReservation {
+        font-size: 2rem;
+        margin-bottom: 2%;
+    }
+
+    .blocHaut-2 {
+        font-size: 1rem;
+
+    }
+
+    .blocDate {
+        font-size: 0.9rem;
+    }
+
+    .blocInformation,
+    .blocInformation-2 {
+        display: none;
+    }
+
+    p.dateVisite {
+        font-size: 0.9rem;
+    }
+
+
+
+    .container7-1-Gauche,
+    .container7-1-Droite {
+
+        width: 45%;
+        height: 75%;
+    }
+
+
+    .C7-Bloc-Titre {
+        width: 100%;
+        height: 30%;
+
+    }
+
+    .C7-Bloc-Infos {
+        height: 60%;
+    }
+
+    .C7-Titre {
+        font-size: 1.2rem;
+    }
+
+    p.groupePrive {
+        font-size: 0.8rem;
+
+    }
+
+    a.page6-4 {
+        font-size: 1rem;
+    }
+
+    a.lienpage {
+        font-size: 1.2rem;
+    }
+
+
+}
+
+
+@media (orientation:landscape) and (max-width:400px) {
+
+    .reservationTitreReservation {
+        font-size: 1.3rem;
+    }
+
+    .blocHaut-2 {
+        font-size: 1rem;
+    }
+
+    .blocDate {
+        font-size: 0.9rem;
+    }
+
+
+    .blocInformation,
+    .blocInformation-2 {
+        display: none;
+    }
+
+    .C7-Bloc-Infos {
+        margin-top: 3%;
+    }
+
+    p.dateVisite {
+        font-size: 0.7rem;
+    }
+
+    .container7-1-Gauche {
+
+        width: 95%;
+        height: 75%;
+        margin: 1%;
+
+    }
+
+    .container7-1-Droite {
+        width: 95%;
+        height: 25%;
+    }
+
+    p.tel,
+    p.mail {
+        font-size: 0.6rem;
+    }
+
+    .C7-Titre {
+        font-size: 0.9rem;
+    }
+
+    p.groupePrive {
+        font-size: 0.8rem;
+    }
+
+
+
+
+}

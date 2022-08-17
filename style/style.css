@@ -1,0 +1,485 @@
+/*----------------------------------------------
+            CONTAINER 1 
+---------------------------------------------------*/
+
+
+.containerAccueil {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.containerAccueil-1 {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blocVideAccueil {
+    width: 100%;
+    height: 13vh;
+}
+
+.blocTitreAccueil {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.5rem;
+    color: var(--bleu);
+    font-family: 'Niconne';
+    text-align: center;
+}
+
+.bandeauEven {
+	display:none;
+}
+
+/*
+.bandeauEven {
+    width: 100%;
+    height: 10vh;
+    font-size: 3rem;
+    background-color: rgb(189, 39, 226);
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.containerAccueil-Image {
+    width: 100%;
+    max-height: 100%;
+}
+
+.C1-Image {
+    width: 100%;
+    height: 100%;
+}
+
+.container1-Bas {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C1-Bas {
+
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.C1T {
+    font-size: 3.5rem;
+    color: var(--bleu);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+
+.C2-Haut {
+    width: 100%;
+    height: 50%;
+    background-color: var(--bleu);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C2-BlocTxt {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.C2T {
+    font-size: 2rem;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+
+.C2-Bas {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.C2-Bas-Gauche {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.C2-Cadre-Image {
+    width: 65%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.C2-Image {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.C2-Legende {
+    width: 65%;
+    height: 5%;
+    background-color: var(--bleu);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C2-Le-T {
+    font-size: 1rem;
+    color: white;
+}
+
+.C2-Bas-Droite {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.blocBouton {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+
+.boutonA {
+    width: 80%;
+    height: 50%;
+    background-color: var(--rose);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.bouton {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a.bouton:hover {
+    background-color: var(--bleu);
+    color: var(--rose);
+    border-radius: 20px;
+}
+
+
+
+@media all and (max-width: 1500px) {
+
+
+    .blocTitreAccueil {
+        font-size: 4.5rem;
+    }
+
+}
+
+@media all and (max-width: 1100px) {
+
+
+
+    p.C1T {
+        font-size: 1.7rem;
+
+    }
+
+    p.C2T {
+        font-size: 1.5rem;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    .C2-Le-T {
+        font-size: 0.7rem;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    .blocVideAccueil {
+        height: 5vh;
+    }
+
+    .blocTitreAccueil {
+        font-size: 3.5rem;
+    }
+
+    .bandeauEven {
+        font-size: 2rem;
+    }
+
+    p.C1T {
+        font-size: 1.7rem;
+
+    }
+
+    p.C2T {
+        font-size: 1.3rem;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    .C2-Legende {
+        display: none;
+    }
+
+    .C2-Image {
+        border-radius: 20px;
+    }
+}
+
+
+
+
+@media all and (max-width: 500px) {
+
+
+    .blocVideAccueil {
+        height: 4vh;
+    }
+
+
+    .blocTitreAccueil {
+
+        font-size: 2.5rem;
+    }
+
+    .bandeauEven {
+        font-size: 1.4rem;
+    }
+
+    p.C1T {
+        font-size: 1rem;
+
+    }
+
+    p.C2T {
+        font-size: 0.9rem;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    .C2-Bas {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .C2-Bas-Gauche {
+        display: none;
+    }
+
+    .C2-Bas-Droite {
+        width: 90%;
+    }
+
+    .blocBouton {
+        margin-right: 0%;
+    }
+
+}
+
+@media all and (max-width: 350px) {
+
+
+
+    .blocVideAccueil {
+        height: 15vh;
+    }
+
+    .blocTitreAccueil {
+        height: 30vh;
+        font-size: 2rem;
+
+    }
+
+    .bandeauEven {
+        font-size: 1.1rem;
+    }
+
+    .C1-Bas {
+
+        width: 95%;
+        min-height: 20vh;
+
+    }
+
+    p.C1T {
+        font-size: 1rem;
+
+    }
+
+    .C2-BlocTxt {
+        width: 95%;
+        min-height: 25vh;
+    }
+
+    p.C2T {
+        font-size: 0.9rem;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+
+}
+
+/* LANDESCALE */
+
+@media (orientation:landscape) and (max-width:1000px) {
+
+
+
+    .blocVideAccueil {
+        height: 15vh;
+    }
+
+
+    .blocTitreAccueil {
+        height: 30vh;
+        font-size: 3.5rem;
+
+    }
+
+    .bandeauEven {
+        font-size: 1.1rem;
+    }
+
+    .C1-Bas {
+
+        width: 95%;
+        min-height: 20vh;
+
+    }
+
+    p.C1T {
+        font-size: 1.5rem;
+
+    }
+
+    .C2-BlocTxt {
+        width: 95%;
+        min-height: 25vh;
+    }
+
+    p.C2T {
+        font-size: 1.5rem;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+    .C2-Bas {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .C2-Bas-Gauche {
+        display: none;
+    }
+
+    .C2-Bas-Droite {
+        width: 90%;
+    }
+
+    .blocBouton {
+        margin-right: 0%;
+    }
+
+
+
+}
+
+
+@media (orientation:landscape) and (max-width:500px) {
+
+
+
+
+    .blocTitreAccueil {
+        height: 30vh;
+        font-size: 2.5rem;
+
+    }
+
+
+    .C1-Bas {
+
+        width: 95%;
+        min-height: 30vh;
+
+    }
+
+    p.C1T {
+        font-size: 1.3rem;
+
+    }
+
+    .C2-BlocTxt {
+        width: 95%;
+        min-height: 35vh;
+    }
+
+    p.C2T {
+        font-size: 1.2rem;
+        margin-bottom: 1%;
+        margin-top: 1%;
+    }
+
+
+
+
+}

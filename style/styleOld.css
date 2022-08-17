@@ -1,0 +1,743 @@
+/*----------------------------------------------
+            CONTAINER 1 
+---------------------------------------------------*/
+
+
+.container1 {
+    width: 100%;
+    height: 200vh;
+}
+
+.container1-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container1-1H {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bandeauEven {
+    width: 100%;
+    height: 20%;
+    font-size: 2.5rem;
+    background-color: rgb(189, 39, 226);
+    color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C1H-txt {
+    font-size: 6.5rem;
+    color: var(--bleu);
+    padding-top: 8%;
+    font-family: 'Niconne';
+    text-align: center;
+}
+
+.container1-Image {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C1-Img {
+    width: 100%;
+    height: auto;
+}
+
+.C1-Image {
+    width: 65%;
+    height: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.container1-Bas {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C1-Bas {
+
+    width: 80%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.C1T {
+    font-size: 3.5rem;
+    color: var(--bleu);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+
+/*----------------------------------------------
+            CONTAINER 2 
+---------------------------------------------------*/
+
+
+.container2 {
+    width: 100%;
+    height: 100vh;
+}
+
+.container2-1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.C2-Haut {
+    width: 100%;
+    height: 50%;
+    background-color: var(--bleu);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C2-BlocTxt {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p.C2T {
+    font-size: 2rem;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.C2-Bas {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.C2-Bas-Gauche {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.C2-Cadre-Image {
+    width: 65%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.C2-Image {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.C2-Legende {
+    width: 65%;
+    height: 5%;
+    background-color: var(--bleu);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.C2-Le-T {
+    font-size: 1rem;
+    color: white;
+}
+
+.C2-Bas-Droite {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.blocBouton {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+
+
+.boutonA {
+    width: 80%;
+    height: 50%;
+    background-color: var(--rose);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.bouton {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a.bouton:hover {
+    background-color: var(--bleu);
+    color: var(--rose);
+    border-radius: 20px;
+}
+
+
+
+@media all and (max-width: 1600px) {
+
+
+    .container1 {
+        width: 100%;
+        height: 250vh;
+    }
+
+    .container1-1H {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container1-Image {
+        width: 100%;
+        height: 55%;
+    }
+
+
+    .C1H-txt {
+        font-size: 4.5rem;
+    }
+
+
+    p.C2T {
+        font-size: 1.5rem;
+    }
+
+
+    .C2-Cadre-Image {
+        width: 55%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .C2-Legende {
+        width: 55%;
+
+    }
+
+    .C2-Le-T {
+        font-size: 0.7rem;
+        color: white;
+    }
+
+    .blocBouton {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10%;
+    }
+
+
+    .boutonA {
+        width: 90%;
+        height: 30%;
+    }
+
+
+    a.bouton {
+        font-size: 1rem;
+
+    }
+
+
+
+
+}
+
+
+
+@media all and (max-width: 1250px) {
+
+
+    .container1 {
+        width: 100%;
+        height: 150vh;
+    }
+
+    .container1-1H {
+        width: 100%;
+        height: 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container1-Image {
+        width: 100%;
+        height: 50%;
+    }
+
+    .C1H-txt {
+        font-size: 3.7rem;
+    }
+
+    p.C1T {
+        font-size: 2.8rem;
+    }
+
+
+    p.C2T {
+        font-size: 1.3rem;
+    }
+
+
+    .C2-Legende {
+        width: 55%;
+        height: 10%;
+        background-color: var(--bleu);
+    }
+
+    .C2-Le-T {
+        font-size: 0.75rem;
+        color: white;
+        text-align: center;
+    }
+
+
+
+
+}
+
+@media all and (max-width: 1100px) {
+
+
+    .container1 {
+        width: 100%;
+        height: 160vh;
+    }
+
+    .container1-Image {
+        width: 100%;
+        height: 60%;
+    }
+
+    .C2-Image {
+        border-radius: 10px;
+    }
+
+    .C2-Legende {
+        display: none;
+    }
+}
+
+@media all and (max-width: 1000px) {
+
+    .container1 {
+        width: 100%;
+        height: 120vh;
+    }
+
+    .container1-1H {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .C1H-txt {
+        font-size: 3.5rem;
+        margin-right: 10%;
+
+    }
+
+    p.C1T {
+        font-size: 2.8rem;
+    }
+
+
+    p.C2T {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .C2-Le-T {
+        font-size: 0.7rem;
+    }
+
+    .C2-Bas-Gauche {
+        width: 60%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .C2-Cadre-Image {
+        width: 65%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+}
+
+@media all and (max-width: 900px) {
+
+
+    .container1-1H {
+        height: 20%;
+
+    }
+
+    p.C1T {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media all and (max-width: 800px) {
+
+
+
+    p.C1T {
+        font-size: 2rem;
+    }
+
+
+    p.C2T {
+        font-size: 0.9rem;
+    }
+
+    .C2-Legende {
+
+        display: none;
+    }
+
+
+}
+
+@media all and (max-width: 700px) {
+
+    .container1 {
+        width: 100%;
+        height: 140vh;
+    }
+
+
+    .C1H-txt {
+        font-size: 2.5rem;
+        padding-top: 0%;
+    }
+
+    p.C1T {
+        font-size: 1.5rem;
+    }
+
+
+    p.C2T {
+        font-size: 0.8rem;
+    }
+
+    .C2-Cadre-Image {
+        width: 85%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+}
+
+
+@media all and (max-width: 600px) {
+
+    .container1 {
+        width: 100%;
+        height: 130vh;
+    }
+
+    p.C2T {
+        font-size: 0.7rem;
+    }
+
+    .C2-Cadre-Image {
+        width: 95%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+}
+
+@media all and (max-width:500px) {
+
+    .container1 {
+        width: 100%;
+        height: 90vh;
+    }
+
+
+    .C1H-txt {
+        font-size: 1.3rem;
+    }
+
+    .C1-Bas {
+        padding-bottom: 5%;
+    }
+
+    p.C1T {
+        font-size: 1rem;
+
+    }
+
+
+    p.C2T {
+        font-size: 0.8rem;
+
+    }
+
+
+
+    .C2-Bas {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .C2-Bas-Gauche {
+        width: 100%;
+        height: 75%;
+    }
+
+    .C2-Cadre-Image {
+        width: 90%;
+        height: auto;
+
+    }
+
+
+    .C2-Legende {
+        display: none;
+    }
+
+    .C2-Bas-Droite {
+        width: 100%;
+        height: 25%;
+
+    }
+
+
+    .blocBouton {
+        width: 100%;
+        height: 100%;
+        margin-right: 0%;
+    }
+
+
+    .boutonA {
+        width: 80%;
+        height: 50%;
+    }
+
+
+    a.bouton {
+        font-size: 1.45rem;
+
+    }
+
+
+}
+
+
+
+/*----------------------
+        PORTRAIT
+-----------------------*/
+
+
+
+@media (orientation:landscape) and (max-width:1000px) {
+
+    .container1 {
+        width: 100%;
+        height: 200vh;
+    }
+
+
+    .C1H-txt {
+        font-size: 2.5rem;
+        padding-top: 0%;
+    }
+
+    .C1-Bas {
+        padding-bottom: 0%;
+    }
+
+    p.C1T {
+        font-size: 1rem;
+
+    }
+
+
+    p.C2T {
+        font-size: 0.8rem;
+
+    }
+
+
+
+    .C2-Bas {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .C2-Bas-Gauche {
+        width: 60%;
+        height: 100%;
+    }
+
+    .C2-Cadre-Image {
+        width: 70%;
+        height: auto;
+
+    }
+
+
+    .C2-Legende {
+        display: none;
+    }
+
+    .C2-Bas-Droite {
+        width: 40%;
+        height: 100%;
+
+    }
+
+
+    .blocBouton {
+        width: 100%;
+        height: 100%;
+        margin-right: 0%;
+    }
+
+
+    .boutonA {
+        width: 80%;
+        height: 50%;
+    }
+
+
+    a.bouton {
+        font-size: 1.45rem;
+
+    }
+
+
+}
+
+@media (orientation:landscape) and (max-width:700px) {
+
+
+    .C2-Cadre-Image {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media all and (max-width:350px) {
+
+
+    .C1H-txt {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    p.C1T {
+        font-size: 0.8rem;
+
+    }
+
+    p.C2T {
+        font-size: 0.7rem;
+
+    }
+
+    .C2-Bas-Gauche {
+        width: 100%;
+        height: 65%;
+    }
+
+}
